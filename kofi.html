@@ -1,7 +1,7 @@
 <iframe id='kofiframe' src='https://ko-fi.com/type63/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:rgba(0,255,0,1);' height='712' title='type63'></iframe>
 
 var head = jQuery("#kofiframe").contents().find("head");
-var css = '<style type="css">' +
+var css = '<style type="text/css">' +
           '.mainBody{background:rgba(0,0,255,1}!important; ' +
           '</style>';
 jQuery(head).append(css);
