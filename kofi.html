@@ -1,7 +1,12 @@
-<iframe id='kofiframe' src='https://ko-fi.com/type63/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:rgba(0,255,0,1);' height='712' title='type63'></iframe>
+<html>
+<head></head>
+<body id="myId">
+</body>
+</html>
 
-var head = jQuery("#iframe").contents().find("head");
-var css = '<style type="text/css">' +
-          'body.mainBody{background:rgba(0,0,255,1)!important;} ' +
-          '</style>';
-jQuery(head).append(css);
+<iframe id='kofiframe' src='https://ko-fi.com/type63/?hidefeed=true&widget=true&embed=true&preview=true' 
+        style='border:none;width:100%;padding:4px;background:rgba(0,255,0,1);' height='712' title='type63'>
+        #myId {background-color: cyan !important;}
+
+</iframe>
+
